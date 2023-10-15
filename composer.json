@@ -1,9 +1,9 @@
 {
   "name": "solution-pioneers/magento2-free-shipping",
-  "description": "Free Shipping Magento 2 Extension",
+  "description": "Hide shipping methods if free shipping is applied",
   "require": {
     "php": ">=8.0",
-    "magento/module-shipping": "^100.4.6"
+    "magento/module-quote": "^101.2.6"
   },
   "type": "magento2-module",
   "version": "1.0.0",

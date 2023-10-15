@@ -1,4 +1,3 @@
-
 <?xml version="1.0"?>
 <!--
 /**
@@ -10,7 +9,7 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <type name="Magento\Shipping\Model\Shipping">
-        <plugin name="solutionpioneers_model_shipping" type="SolutionPioneers\FreeShipping\Plugin\Model\Shipping" disabled="false" />
+    <type name="Magento\Quote\Model\ShippingMethodManagement">
+        <plugin name="solutionpioneers_quote_model_shipping_method_management" type="SolutionPioneers\FreeShipping\Plugin\Model\Quote\ShippingMethodManagement" disabled="false" />
     </type>
 </config>
